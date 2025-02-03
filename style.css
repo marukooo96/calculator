@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'Calculator';
+    font-style: normal;
+    font-weight: normal;
+    src: url('fonts/Calculator.ttf') format('opentype');
+}
+.container {
+    display: flex;
+    justify-content: center;
+
+    font-family: 'Calculator';
+    font-size: 35px;
+}
+#header {
+    align-items: center;
+}
