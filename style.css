@@ -6,7 +6,9 @@
 }
 .container {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
 
     font-family: 'Calculator';
     font-size: 35px;
@@ -14,3 +16,21 @@
 #header {
     align-items: center;
 }
+
+.calculator {
+    background-color: beige;
+}
+
+#screen {
+    background-color: #B0C478;
+    width: 360px;
+    height: 50px;   
+    justify-items: end;
+}
+
+p {
+    margin-right: 10px;
+    
+}
+
+
