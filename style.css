@@ -18,7 +18,10 @@
 }
 
 .calculator {
-    background-color: beige;
+    background-color: grey;
+    justify-content: center;
+    width: 400px;
+    height: 1000px;
 }
 
 #screen {
@@ -26,11 +29,36 @@
     width: 360px;
     height: 50px;   
     justify-items: end;
+    margin-left: 18px;
 }
 
 p {
     margin-right: 10px;
     
+}
+
+#numbers {
+    width: 260px;
+    height: 240px;
+
+    margin-right: 100px;
+
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.numberButtons {
+
+    /* border: 1px; */
+    border-radius: 6px;
+    background-color: black;
+    color: white;
+    font-size: 32px;
+    height: 70px;
+    width: 70px;
+    margin-top: 10px;
+    margin-right: 2px;
 }
 
 
