@@ -21,7 +21,7 @@
     background-color: grey;
     justify-content: center;
     width: 400px;
-    height: 1000px;
+    height: 500px;
 }
 
 #screen {
@@ -37,11 +37,16 @@ p {
     
 }
 
+#buttons {
+    flex-direction: row;
+
+}
+
 #numbers {
-    width: 260px;
+    width: 210px;
     height: 240px;
 
-    margin-right: 100px;
+    /* margin-right: 100px; */
 
     flex-direction: row;
     flex-wrap: wrap;
@@ -55,8 +60,31 @@ p {
     background-color: black;
     color: white;
     font-size: 32px;
-    height: 70px;
-    width: 70px;
+    height: 60px;
+    width: 60px;
+    margin-top: 10px;
+    margin-right: 2px;
+}
+
+#operations {
+    width: 120px;
+    height: 80px;
+
+    /* margin-right: 100px; */
+
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.operationButtons {
+
+    /* border: 1px; */
+    border-radius: 6px;
+    background-color: white;
+    font-size: 32px;
+    height: 50px;
+    width: 50px;
     margin-top: 10px;
     margin-right: 2px;
 }
